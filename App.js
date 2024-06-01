@@ -4,8 +4,8 @@ import SearchBar from './components/searchBar';
 import Categories from './components/categories';
  import Header from './components/header';
 import OngoingTasks from './components/ongoingTasks';
-// import Categories from './components/Categories';
-//import { useSafeAreaInsets } from "react-native-safe-area-context";
+
+
 
 export default function App() {
   return (
