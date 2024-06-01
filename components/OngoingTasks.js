@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput, FlatList } from 'react-native';
+
+import { StyleSheet, Text, View,FlatList } from 'react-native';
 
 
 const OngoingTasks = () => { 

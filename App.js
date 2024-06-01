@@ -1,7 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
-import { AntDesign } from "@expo/vector-icons";
-
+import { StyleSheet,View} from 'react-native';
 import SearchBar from './components/searchBar';
 import Categories from './components/categories';
  import Header from './components/header';

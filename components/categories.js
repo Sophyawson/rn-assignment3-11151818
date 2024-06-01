@@ -1,16 +1,15 @@
-
-import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image,ScrollView } from 'react-native';
 
 const Categories = () => {
    const Categorydata = [
       { name: 'Exercise', count: 1, image: require('../assets/young woman working online.png') },
       { name: 'Study', count: 2, image: require('../assets/young woman working at desk.png') },
       { name: 'Work', count: 3, image: require('../assets/young woman working online.png') },
-      { name: 'Study', count: 4, image: require('../assets/young woman working at desk.png') },
-      { name: 'Exercise', count: 5, image: require('../assets/young woman working online.png') },
-      { name: 'Study', count: 6, image: require('../assets/young woman working at desk.png') },
-      { name: 'Exercise', count: 7, image: require('../assets/young woman working online.png') },
-      { name: 'Study', count: 8, image: require('../assets/young woman working at desk.png') },
+      { name: 'Sleep', count: 4, image: require('../assets/young woman working at desk.png') },
+      { name: 'Cook', count: 5, image: require('../assets/young woman working online.png') },
+      { name: 'Code', count: 6, image: require('../assets/young woman working at desk.png') },
+      { name: 'Break', count: 7, image: require('../assets/young woman working online.png') },
+      { name: 'Wash', count: 8, image: require('../assets/young woman working at desk.png') },
 
    ];
    return (

@@ -9,7 +9,7 @@ const Header = () => {
 
     <View>
     <Text style={styles.headerdesign}>Hello , Devs</Text>
-    <Text style={styles.textdesign}> 15 tasks today</Text>
+    <Text style={styles.textdesign}> 14 tasks today</Text>
     </View>
 
     <View style={styles.topImage}>
