@@ -32,7 +32,7 @@ const SearchBar = () => {
 
 const styles = StyleSheet.create({
 searchButton: {
-    marginLeft: 20,
+    
     backgroundColor: 'white',
     width: 280,
     marginTop: 30,

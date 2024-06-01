@@ -5,7 +5,7 @@ import { AntDesign } from "@expo/vector-icons";
 import SearchBar from './components/searchBar';
 import Categories from './components/categories';
  import Header from './components/header';
-// import Categories from './components/Categories';
+import OngoingTasks from './components/ongoingTasks';
 // import Categories from './components/Categories';
 //import { useSafeAreaInsets } from "react-native-safe-area-context";
 
@@ -19,12 +19,13 @@ export default function App() {
     
 
     {/* Searchbar section */}
-   <SearchBar/>
+    <SearchBar/>
 
+    {/* Category Section */}
+    <Categories/>
 
-   {/* Categories Section */}
-   <Categories />
-   
+    {/* OngoingTasks Section */}
+    <OngoingTasks/>
 
       <StatusBar style="auto" />
     </View>
@@ -35,6 +36,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F7F0E8',
+    padding: 20,
   },
 
 });

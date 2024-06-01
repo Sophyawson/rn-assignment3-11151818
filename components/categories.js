@@ -1,3 +1,4 @@
+
 import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput, ScrollView } from 'react-native';
 
 const Categories = () => {
@@ -13,9 +14,9 @@ const Categories = () => {
 
    ];
    return (
-      <View>
-         <View>
-            <Text style={{ marginTop: 40, marginLeft: 20, fontSize: 25, fontWeight: 'bold', marginBottom: 15 }}>Categories</Text>
+      <View >
+         <View >
+            <Text style={{ marginTop: 40, fontSize: 20, fontWeight: 'bold', marginBottom: 15 }}>Categories</Text>
          </View>
 
 
@@ -23,7 +24,7 @@ const Categories = () => {
          {Categorydata.map((category) => (
             <View key={category.name} style={styles.cat}>
             <Text style={styles.name}>{category.name}</Text>
-            <Text style={styles.count}>{category.count} Tasks</Text>
+            <Text>{category.count} Tasks</Text>
             <Image source={category.image} style={styles.image}/>
 
             </View>
@@ -40,6 +41,24 @@ const Categories = () => {
 const styles = StyleSheet.create({
    cat:{
       backgroundColor: 'white',
+      paddingHorizontal: 20,
+      paddingVertical: 15,
+      borderRadius: 15,
+      width: 186,
+      height: 192,
+      marginRight: 20,
+      opacity: 1,  
+   },
+
+   horizontal: {
+      width: 396,
+      height: 192,
+      
+   },
+
+   name: {
+      fontSize: 16,
+      fontWeight: 'bold',
    },
  
  });

@@ -2,6 +2,8 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'reac
 import { AntDesign } from "@expo/vector-icons";
 
 const Header = () => { 
+
+  
    return(
     <View style={styles.box}>
 
@@ -23,24 +25,23 @@ const Header = () => {
 const styles = StyleSheet.create({
     box: {
         flexDirection: 'row',
-        marginTop: 60,
+        marginTop: 30,
         
       },
     
       headerdesign: {
-        fontSize: 30,
-        
-        marginLeft: 20,
+        fontSize: 32,
         fontWeight: 'bold',
+        
       },
     
       textdesign: {
-        marginLeft: 15,
+        
       },
     
       topImage: {
-        
-        marginLeft: 140,
+       marginLeft: 130,
+       
       },
       button:{
         backgroundColor: 'white',
